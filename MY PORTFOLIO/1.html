@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap demo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background-color: rgb(1, 1, 18);
+			color: aliceblue;
+		}
+
+		nav {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			background-color: rgb(19, 12, 79);
+			height: 80px;
+		}
+
+		ul {
+			display: flex;
+			justify-content: center;
+		}
+
+		li {
+			list-style: none;
+			margin: 35px;
+			text-decoration: none;
+		}
+
+		.left {
+			font-size: 26px;
+		}
+
+		.section {
+			display: flex;
+			justify-content: space-around;
+			margin: 22px;
+		}
+
+		.img {
+			width: 80%;
+			margin: 50px 0;
+		}
+
+		.ls {
+			font-size: 3rem;
+			margin: 100px;
+		}
+
+		.purple {
+			color: rgb(124, 23, 137);
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
+		a:hover {
+			color: rgb(126, 54, 219);
+		}
+
+		.abc {
+			max-width: 80wv;
+			margin: 40px 0px 0px 180px;
+			font-family: initial;
+			font-size: 1.6rem;
+			height: 80vh;
+			;
+		}
+
+		hr {
+			border: 0;
+			background: #9c97f1;
+			height: 1.2px;
+			margin: 40px 80px;
+		}
+
+		.work {
+			color: grey;
+		}
+
+		.box {
+			height: 2px;
+			width: 80px;
+			background: white;
+		}
+
+		.img {
+			width: 300px;
+			margin-top: 80px;
+
+		}
+
+		.card {
+			float: left;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<header>
+			<nav>
+
+				<div class="left">Abhi's Portfolio</div>
+				<div class="right">
+					<ul class="dec">
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Project</a></li>
+						<li><a href="">Contect me</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="section">
+
+				<div class="ls">Hi, My Name Is <span class="purple"> Abhishek</span>
+					<div>I'm a Web Devloper</div>
+					<button type="button" class="btn btn-outline-primary"><a
+							href="https://github.com/abhishekkkk000">Git
+							hub</a></button>
+					<button type="button" class="btn btn-outline-primary"><a
+							href="https://www.linkedin.com/in/abhishek-mavdiya-19520623a/">Linkdin</a></button>
+					<button type="button" class="btn btn-outline-primary"><a href="">Instagram</a></button>
+				</div>
+				<div class="rs">
+					<img class="img" src="1233.jpg" alt="" height="280px" width="150px">
+				</div>
+			</div>
+			<hr>
+			<div class="skills">
+				<span>
+					<h2 style="margin-left: 47%;">My Skills</h2>
+				</span><br>
+				<div class="no">
+					<ul class="list-group" style="background-color: rgb(1, 1, 18);">
+						<a class="list-group-item list-group-item-action list-group-item-primary">HTML</a>
+						<a class="list-group-item list-group-item-action list-group-item-primary">JAVA</a>
+						<a class="list-group-item list-group-item-action list-group-item-primary">DATA STRUCTURE</a>
+						<a class="list-group-item list-group-item-action list-group-item-primary">C LANGUAGE</a>
+						<a class="list-group-item list-group-item-action list-group-item-primary">PYTHON</a>
+						<a class="list-group-item list-group-item-action list-group-item-primary">C#</a>
+
+					</ul>
+				</div>
+			</div>
+
+
+			<main>
+				<div class="container-fluid bg-trasparent my-4 p-3" style="position: relative;">
+					<div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+						<div class="col">
+							<div class="card h-100 shadow-sm"> <img src="py.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<div class="clearfix mb-3"> <span
+											class="float-start badge rounded-pill bg-primary">PYTHON</span> </div>
+									<h5 class="card-title">Python is a computer programming language often used to build
+										websites and software, automate tasks, and conduct data analysis. Python is a
+										general-purpose language, meaning it can be used to create a variety of
+										different programs and isn't specialized for any specific problems.</h5>
+									<br><br><br><br><br><br>
+									<div class="text-center my-4"> <a href="#" class="btn btn-warning">SHOW PROJECT</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100 shadow-sm"> <img src="p2.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<div class="clearfix mb-3"> <span
+											class="float-start badge rounded-pill bg-success">DATA STRUCTURE</span>
+										<span class="float-end"><a href="#">Example</a></span>
+									</div>
+									<br><br><br>
+									<h5 class="card-title">A data structure is a specialized format for organizing,
+										processing, retrieving and storing data. There are several basic and advanced
+										types of data structures, all designed to arrange data to suit a specific
+										purpose. Data structures make it easy for users to access and work with the data
+										they need in appropriate ways.</h5><br><br><br><br><br><br>
+									<div class="d-grid gap-2 my-4"> <a href="#" class="btn btn-warning">SHOW PROJECT</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100 shadow-sm "> <img src="c.png" class="card-img-top" alt="...">
+
+								<div class="card-body">
+									<div class="clearfix mb-3"> <span
+											class="float-start badge rounded-pill bg-success">C++</span>
+									</div>
+									<h5 class="card-title">C# is an object-oriented, component-oriented programming
+										language. C# provides language constructs to directly support these concepts,
+										making C# a natural language in which to create and use software components.
+										Since its origin, C# has added features to support new workloads and emerging
+										software design practices.</h5>
+									<div class="text-center my-4"> <a href="#" class="btn btn-warning">SHOW PROJECT</a>
+									</div>
+									<div class="clearfix mb-1"> <span class="float-start"><i
+												class="far fa-question-circle"></i></span> <span class="float-end"><i
+												class="fas fa-plus"></i></span> </div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100 shadow-sm"> <img src="CPP.png" class="card-img-top" alt="...">
+
+								<div class="card-body">
+									<div class="clearfix mb-3"> <span class="float-start price-hp">C++</span>
+
+									</div>
+									<h5 class="card-title">C++ is an object-oriented programming (OOP) language that is
+										viewed by many as the best language for creating large-scale applications. C++
+										is a superset of the C language. A related programming language, Java, is based
+										on C++ but optimized for the distribution of program objects in a network such
+										as the Internet.</h5>
+									<div class="text-center my-4"> <a href="#" class="btn btn-warning">SHOW PROJECT </a>
+									</div>
+									<div class="clearfix mb-1"> <span class="float-start"><i
+												class="far fa-question-circle"></i></span> <span class="float-end"><i
+												class="fas fa-plus"></i></span> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</main>
+
+		<div>
+			<div class="contact-form-wrapper d-flex justify-content-center">
+				<form action="#" class="contact-form">
+					<h5 class="title">Contact us</h5>
+					<p class="description">Feel free to contact us if you need any assistance, any help or another
+						question.
+					</p>
+					<div>
+						<input type="text" class="form-control rounded border-white mb-3 form-input" id="name"
+							placeholder="Name" required>
+					</div>
+					<div>
+						<input type="email" class="form-control rounded border-white mb-3 form-input"
+							placeholder="Email" required>
+					</div>
+					<div>
+						<textarea id="message" class="form-control rounded border-white mb-3 form-text-area" rows="5"
+							cols="30" placeholder="Message" required></textarea>
+					</div>
+					<div class="">
+						<button type="button" class="btn btn-outline-primary">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"></script>
+	</div>
+</body>
+
+</html>
